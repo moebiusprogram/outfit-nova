@@ -1,0 +1,122 @@
+@use '../variables' as *;
+.review {
+  margin-top: 4px;
+  background-color: #fff;
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 12px;
+    padding-inline: $section-padding;
+    border-bottom: 1px solid #EDEDED;
+
+    div {
+      h2 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 4px;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        color: #A5A5A5;
+      }
+    }
+  }
+
+  &-body {
+    padding: $section-padding;
+    border-bottom: 1px solid #EDEDED;
+    &-rating {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 16px;
+
+      .gradient {
+        width: 129px;
+        height: 26px;
+      }
+      span {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+      }
+    }
+
+    &-check {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 12px;
+      color: #719454;
+      margin-bottom: 12px;
+    }
+
+    &-title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      margin-bottom: 12px;
+    }
+
+    &-content {
+      max-width: 267px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #374047;
+    }
+  }
+
+  &-likes {
+    display: flex;
+    gap: 20px;
+    padding: $section-padding;
+
+    button {
+      background-color: transparent;
+      border: 0;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 12px;
+      color: #AEAEAE;
+    }
+  }
+
+  &-reply {
+    position: relative;
+    padding: 14px 12px;
+    border-left: 6px solid #F0BC17;
+    background-color: #F2F2F5;
+    margin-right: 12px;
+    margin-bottom: 8px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 17px;
+      margin-bottom: 12px;
+    }
+
+    span {
+      position: absolute;
+      top: $section-padding;
+      right: $section-padding;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 12px;
+      color: #AEAEAE;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 17px;
+    }
+  }
+}

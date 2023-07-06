@@ -1,0 +1,25 @@
+.socials {
+  padding: 12px;
+  padding-bottom: 62px;
+  border-bottom: 1px solid #EDEDED;
+  background-color: #fff;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

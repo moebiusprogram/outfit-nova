@@ -1,0 +1,31 @@
+@use '../variables' as *;
+.brands-header {
+  padding: 45px 19px 16px 12px;
+  background-color: #F6F9FA;
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: $section-padding;
+    margin-bottom: 14px;
+
+    .brands-header-title {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+
+      h1 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      span {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #AEAEAE;
+      }
+    }
+  }
+}

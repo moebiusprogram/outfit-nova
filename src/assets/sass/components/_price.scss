@@ -1,0 +1,135 @@
+@use '../variables' as *;
+
+.price {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 12px 24px 12px;
+  height: $priceHeight;
+  border-radius: 8px 8px 0 0;
+  gap: 7.25px;
+  position: relative;
+
+  .price-tags {
+    .swiper-button-next{
+      right: 0px !important;
+     
+    }
+  }
+  
+  .coupon {
+    width: 110px;
+    background: #EAEAEA;
+    border: 1px dashed #989898;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 0px 14px;
+    height: 24px;
+
+    span {
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 12px;
+      color: #464646;
+    }
+  }
+
+  .line {
+    width: 21.76px;
+    height: 1.81px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  figure {
+    height: 50px;
+    margin-bottom: 15px !important;
+    img {
+      height: 100%;
+    }
+  }
+
+  &-tags {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-block: 6px;
+    border-block: 1px solid #EDEDED;
+  }
+
+  .swiper-js {
+    width: 90%;
+    position: static;
+    margin-bottom: 16px;
+
+    .swiper-button-next.swiper-button-disabled,
+    .swiper-button-prev.swiper-button-disabled {
+        opacity: 0;
+        cursor: auto;
+        pointer-events: none;
+    }
+
+    .swiper-button-next,
+    .swiper-rtl
+    .swiper-button-prev {
+      right: 129px;
+      left: auto;
+      width: 16px;
+      height: 16px;
+      font-size: 5px;
+      margin-top: auto;
+      transform: translateY(-20%);
+      &:after{
+        font-size: 15px;
+        font-weight: bold;
+        color: #9B9B9B;
+      }
+    }
+    .swiper-button-prev,
+    .swiper-rtl
+    .swiper-button-next {
+      left: 5px;
+      right: auto;
+      width: 16px;
+      height: 16px;
+      font-size: 5px;
+      margin-top: auto;
+      transform: translateY(-20%);
+      &:after{
+        font-size: 15px;
+        font-weight: bold;
+        color: #9B9B9B;
+      }
+    }
+
+    .swiper-slide {
+      width: 5px;
+    }
+  }
+
+  article {
+    padding-block: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.helper {
+  margin: 15px 0;
+  color: $gray-500;
+  font-size: 10px;
+  position: absolute;
+  left: 10px;
+  top: 60px;
+  img{
+    filter: invert(81%) sepia(16%) saturate(143%) hue-rotate(169deg) brightness(87%) contrast(90%);
+    height: 10px;
+  }
+}

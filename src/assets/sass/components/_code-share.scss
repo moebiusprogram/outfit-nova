@@ -1,0 +1,14 @@
+#code-share{
+  .profile-info{
+    &-1{
+      margin-top: 5px;
+      margin-bottom: 0px;
+    };
+    &-2{
+      margin-bottom: 0px;
+    }
+  }
+  .swiper-button-next,  .swiper-button-prev{
+    transform: scale(0.5) translateY(-35px);
+  }
+}

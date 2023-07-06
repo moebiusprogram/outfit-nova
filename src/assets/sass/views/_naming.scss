@@ -1,0 +1,43 @@
+@use '../variables' as *;
+
+.naming {
+  &-top-section {
+    background-color: #000;
+    display: flex;
+    gap: 31px;
+    padding: 31px 41px;
+    margin-bottom: 42px;
+
+    p {
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: -0.03em;
+    }
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    padding: 42px $section-padding;
+
+    h2 {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: -0.03em;
+    }
+
+    p {
+      width: 254px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: -0.03em;
+      color: #6A6A6A;
+    }
+  }
+}

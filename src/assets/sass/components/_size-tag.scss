@@ -1,0 +1,24 @@
+.size-tag{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  font-size: 10px;
+  height: 18px;
+  position: relative;
+  padding: 4px 3.5px;
+  gap: 10px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 2px;
+  color: #9B9B9B;
+  // margin-right: 5px;
+  width: max-content;
+
+  &-selected {
+    background: #03E5B6;
+    color: #000;
+    font-weight: 600;
+    border: none;
+  }
+}

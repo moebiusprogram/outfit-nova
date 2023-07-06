@@ -1,0 +1,16 @@
+@use '../variables' as *;
+.top-of-the-day {
+  padding-inline: $section-padding;
+
+  .top-container {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 15px;
+    h1 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 16px;
+    }
+  }
+}

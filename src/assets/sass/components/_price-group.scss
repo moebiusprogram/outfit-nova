@@ -1,0 +1,34 @@
+.price-group {
+  .price-iva {
+    &-price {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: uppercase;
+      color: #CA052A;
+      margin-right: 8px;
+    }
+
+    .iva {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+      color: #7D9698;
+    }
+  }
+
+  .discount {
+    .price-discount {
+      font-weight: 400;
+      font-size: 9px;
+      line-height: 11px;
+      margin-right: 4px;
+    }
+    .historical {
+      font-weight: 400;
+      font-size: 9px;
+      line-height: 11px;
+      color: #008337;
+    }
+  }
+}

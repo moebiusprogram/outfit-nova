@@ -1,0 +1,67 @@
+@use '../variables' as *;
+
+.content-wrapper {
+  text-align: center;
+}
+.separador {
+  width: 20vw;
+  height: 5px;
+  background-color: black;
+  margin: auto;
+}
+.floating-label{
+  position: absolute;
+  font-size: 1rem;
+  margin-top: 22px;
+  margin-left: 15px;
+  color: gray;
+  transition: 0.8s ease all;
+}
+.rem08{
+  font-size: 0.8rem;
+}
+.input-codigo{
+  text-indent:15px;
+}
+
+input[type=text]{
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+
+.nolink {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+}
+
+.label-focused {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 0.5rem;
+  color: $gray-600;
+  padding-bottom: 15px;
+}
+.dark{
+  background-color: black;
+  color: white;
+}
+.fit-all-screen {
+  width: 90vw;
+}
+.my-10{
+  margin: 10px 0;
+}
+.my-10{
+  margin: 15px 0;
+}
+.mb-15{
+  margin-bottom: 15px;
+}
+.py-10 {
+  padding: 10px 0;
+}
+h4 {
+  font-size: 0.8rem;
+}

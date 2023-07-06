@@ -1,0 +1,15 @@
+@use '../variables' as *;
+
+.brand-nav {
+  background: #fff;
+  padding-inline: $section-padding;
+  top: 62px;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+
+  ul {
+    display: flex;
+    align-items: flex-end;
+  }
+}

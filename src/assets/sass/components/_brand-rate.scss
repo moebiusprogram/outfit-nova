@@ -1,0 +1,119 @@
+@use '../variables' as *;
+
+.brand-rate {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  gap: 13px;
+  flex-direction: column;
+  align-items: center;
+  padding: $section-padding;
+
+  h1 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  form {
+    width: 100%;
+    padding: 16px;
+    gap: 13px;
+    display: flex;
+    flex-direction: column;
+    
+    .slider-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      .slider {
+        -webkit-appearance: none;  /* Override default CSS styles */
+        appearance: none;
+        background: linear-gradient(90deg, #FF4E49 -5.45%, #DAFF53 49.32%, #08CA6A 102.73%);; /* Grey background */
+        height: 6px;
+        width: 220px;
+        margin-block: 40px;
+        outline: none; /* Remove outline */
+        -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+        border-radius: 16px;
+        &::-webkit-slider-thumb {
+          -webkit-appearance: none; /* Override default look */
+          appearance: none;
+          width: 10px;
+          height: 18px;
+          background: #FFFFFF;
+          border: 1px solid #000000;
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+          border-radius: 16px;
+        }
+      }
+    }
+
+    .fields {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    p {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: #000;
+    }
+
+    label {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+
+      span {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
+    textarea {
+      height: 134px;
+    }
+
+    .punt, textarea {
+      background: #FFF;
+      border: 1px solid #EDEDED;
+      padding: 12px 14px;
+      &::placeholder {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: #CACFE3;
+      }
+    }
+    .send {
+      font-weight: 600;
+      align-self: center;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      line-height: 15px;
+      color: #FFFFFF;
+      background: #232323;
+      border-radius: 50px;
+      border: 0;
+      width: fit-content;
+      padding: 10px 20px;
+    }
+  }
+}

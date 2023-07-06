@@ -1,0 +1,36 @@
+<template>
+  <svg
+    :width="width"
+    :height="height"
+    viewBox="0 0 16 14"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M15.3327 7.00019L13.706 5.14686L13.9327 2.69352L11.526 2.14686L10.266 0.0268555L7.99935 1.00019L5.73268 0.0268555L4.47268 2.14686L2.06602 2.68686L2.29268 5.14019L0.666016 7.00019L2.29268 8.85352L2.06602 11.3135L4.47268 11.8602L5.73268 13.9802L7.99935 13.0002L10.266 13.9735L11.526 11.8535L13.9327 11.3069L13.706 8.85352L15.3327 7.00019ZM8.66602 10.3335H7.33268V9.00019H8.66602V10.3335ZM8.66602 7.66686H7.33268V3.66686H8.66602V7.66686Z"
+      fill="#00AB5C"
+    />
+  </svg>
+</template>
+
+<script>
+export default {
+  props: {
+    color: String,
+
+    width: {
+      type: String,
+      default: "16",
+      requerid: false,
+    },
+
+    height: {
+      type: String,
+      default: "14",
+      requerid: false,
+    },
+  },
+};
+</script>
+
+<style></style>

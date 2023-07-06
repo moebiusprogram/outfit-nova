@@ -1,0 +1,57 @@
+#add-alert{
+  background-color:  #2B65AE;
+}
+
+
+.ml-12{
+  margin-left:12px
+}
+.my-15{
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+.mgx-5{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.alert-helper{
+  width: 80vw;
+  margin: 55px auto 15px auto;
+  padding: 5px 11px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 1px solid #E3E3E3;
+  background: #F5F4F2;
+  border-radius: 3px;
+}
+
+.helper-icon{
+  filter: invert(81%) sepia(16%) saturate(143%) hue-rotate(169deg) brightness(87%) contrast(90%);
+  height: 16px;
+}
+
+.accept-btn{
+  height: 55px;
+  width: 90vw;
+  border-radius: 4px;
+  padding: 18px 24px;
+  margin: 14px 5vw;
+  border: none;
+  background-color: #53C56F !important;
+  color: white;
+}
+
+#aviso-mult-alertas{
+  width: 95vw;
+  background: #FFFEEA;
+  border: 1px solid #B8873B;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px;
+  margin: 0 auto;
+}

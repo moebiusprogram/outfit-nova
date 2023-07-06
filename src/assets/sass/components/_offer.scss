@@ -1,0 +1,44 @@
+@use '../variables' as *;
+
+.offer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background: linear-gradient(90deg, #EE6338 0%, #6631FF 58.88%, #3A36FF 100%);
+  border-radius: 8px 8px 0px 0px;
+  color: #fff;
+  height: $offerHeight;
+  padding-inline: 12px;
+  transition: 200ms transform ease-out;
+
+  &-tag {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    h4 {
+      font-size: 14px;
+      margin-top: 9px;
+    }
+
+    span {
+      color: #000;
+      background-color: #fff;
+      padding: 5px 9px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+
+  &-expires {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    span {
+      font-size: 10px;
+    }
+  }
+}

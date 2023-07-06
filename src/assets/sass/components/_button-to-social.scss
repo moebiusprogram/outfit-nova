@@ -1,0 +1,28 @@
+.button-to-social {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+  width: 239px;
+  height: 38px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.03em;
+  background-color: #F2F3F5;
+  color: #171717;
+
+  img {
+    position: absolute;
+    width: 12px;
+    aspect-ratio: 1 / 1;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 17px;
+  }
+
+  &.dark {
+    background-color: #000;
+    color: #fff;
+  }
+}
